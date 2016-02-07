@@ -1,0 +1,24 @@
+﻿<Page
+    x:Class="App6.Assets.gameover"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:App6.Assets"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+
+    <Grid>
+        <Grid.Background>
+            <ImageBrush ImageSource="Wood-Texture.jpg"/>
+        </Grid.Background>
+        <Button x:ConnectionId='1' Content="BACK" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="155,509,0,0" Background="#FFE8E6E6"                     />
+        <TextBlock HorizontalAlignment="Left" TextWrapping="Wrap" VerticalAlignment="Top" Margin="85,225,0,0" Height="198" Width="290" FontSize="48" FontFamily="Chiller">
+        	<Run Text="You lost."/>
+        	<LineBreak/>
+        	<Run Text="Better luck next time!!!"/>
+        </TextBlock>
+
+    </Grid>
+</Page>
+

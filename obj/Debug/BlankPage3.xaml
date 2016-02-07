@@ -1,0 +1,49 @@
+﻿<Page
+    x:Class="App6.BlankPage3"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:App6"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+    <Page.Background>
+        <ImageBrush Stretch="Fill" ImageSource="Assets/download.jpg"/>
+    </Page.Background>
+
+    <Grid Margin="0,1.333,0,-1.333">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="127*"/>
+            <ColumnDefinition Width="73*"/>
+        </Grid.ColumnDefinitions>
+        <Grid.Background>
+            <ImageBrush Stretch="Fill" ImageSource="Assets/wood+pattern+texture+16.jpg"/>
+        </Grid.Background>
+        <TextBlock x:ConnectionId='1' HorizontalAlignment="Left" TextWrapping="Wrap" Text="Instructions" VerticalAlignment="Top" Margin="24,19,0,0" Height="29" Width="147"                                               FontSize="24" SelectionHighlightColor="#FF802065" FontWeight="Bold" FontFamily="Arial Black" Foreground="#FF23160F"/>
+        <Button x:ConnectionId='2' Content="Back" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="131,562,0,0"                     >
+            <Button.Background>
+                <ImageBrush Stretch="Fill" ImageSource="Assets/Wood-Texture.jpg"/>
+            </Button.Background>
+        </Button>
+        <TextBlock HorizontalAlignment="Left" TextWrapping="Wrap" VerticalAlignment="Top" Margin="30,47,0,0" Grid.ColumnSpan="2" Height="480" Width="330" FontSize="20" FontFamily="Comic Sans MS" FontStyle="Italic" Foreground="#FF853D1B">
+        	<Run Text="1. Tap the moving block drop it on the lower  blocks so that it falls on its factors."/>
+        	<LineBreak/>
+        	<Run/>
+        	<LineBreak/>
+        	<Run Text="2. Suppose if 11 falls on 22 or vice-versa, as 11 is multiple of 22 so the score increased by 2 and the block below is replaced by 2."/>
+        	<LineBreak/>
+        	<Run/>
+        	<LineBreak/>
+        	<Run Text="3. If in any of the columns, all the 3 rows are complete and a number falls above it...... GAME OVER"/>
+        	<LineBreak/>
+        	<Run/>
+        	<LineBreak/>
+        	<Run Text="4. Learn Maths. Have FUN!!!"/>
+        	<LineBreak/>
+        	<Run/>
+        	<LineBreak/>
+        	<Run/>
+        </TextBlock>
+
+    </Grid>
+</Page>
+
